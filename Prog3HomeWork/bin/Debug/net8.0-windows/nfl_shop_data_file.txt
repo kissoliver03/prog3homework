@@ -1,0 +1,8 @@
+SF 49ers;George Kittle;85;férfi;20;72;Kittle85.jpg
+KC Chiefs;Patrick Mahomes;15;férfi;21;72;Mahomes15.jpg
+NO Saints;Michael Thomas;13;férfi;25;72;Thomas13.jpg
+C Browns;Baker Mayfield;6;férfi;25;72;Mayfield6.jpg
+SF 49ers;George Kittle;85;gyerek;20;52;Kittle85.jpg
+KC Chiefs;Patrick Mahomes;15;gyerek;21;52;Mahomes15.jpg
+NO Saints;Michael Thomas;13;gyerek;25;52;Thomas13.jpg
+C Browns;Baker Mayfield;6;gyerek;25;52;Mayfield6.jpg

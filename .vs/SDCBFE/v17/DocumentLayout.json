@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|c:\\users\\kisso\\desktop\\hf\\project\\sdcbfe\\prog3homework\\view\\rendel\u00E9s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\view\\rendel\u00E9s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|c:\\users\\kisso\\desktop\\hf\\project\\sdcbfe\\prog3homework\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|c:\\users\\kisso\\desktop\\hf\\project\\sdcbfe\\prog3homework\\view\\productrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\view\\productrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\prog3homework\\view\\productrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\view\\productrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\prog3homework\\view\\rendel\u00E9s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\view\\rendel\u00E9s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|c:\\users\\kisso\\desktop\\hf\\project\\sdcbfe\\prog3homework\\view\\rendel\u00E9s.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\view\\rendel\u00E9s.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|c:\\users\\kisso\\desktop\\hf\\project\\sdcbfe\\prog3homework\\view\\nfl shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\view\\nfl shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\prog3homework\\view\\nfl shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\view\\nfl shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NFL shop.cs",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\NFL shop.cs",
+              "RelativeDocumentMoniker": "Prog3HomeWork\\View\\NFL shop.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\NFL shop.cs",
+              "RelativeToolTip": "Prog3HomeWork\\View\\NFL shop.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwGcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:57:51.241Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NFL shop.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\NFL shop.cs",
+              "RelativeDocumentMoniker": "Prog3HomeWork\\View\\NFL shop.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\NFL shop.cs [Design]",
+              "RelativeToolTip": "Prog3HomeWork\\View\\NFL shop.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:57:31.085Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Prog3HomeWork\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\Models\\Product.cs",
+              "RelativeToolTip": "Prog3HomeWork\\Models\\Product.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:09:26.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rendel\u00E9s.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\Rendel\u00E9s.Designer.cs",
+              "RelativeDocumentMoniker": "Prog3HomeWork\\View\\Rendel\u00E9s.Designer.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\Rendel\u00E9s.Designer.cs",
+              "RelativeToolTip": "Prog3HomeWork\\View\\Rendel\u00E9s.Designer.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:07:14.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRow.cs",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\ProductRow.cs",
+              "RelativeDocumentMoniker": "Prog3HomeWork\\View\\ProductRow.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\ProductRow.cs",
+              "RelativeToolTip": "Prog3HomeWork\\View\\ProductRow.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T10:35:52.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\ProductRow.cs",
+              "RelativeDocumentMoniker": "Prog3HomeWork\\View\\ProductRow.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\ProductRow.cs [Design]",
+              "RelativeToolTip": "Prog3HomeWork\\View\\ProductRow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T10:33:18.948Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rendel\u00E9s.cs",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "RelativeDocumentMoniker": "Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "RelativeToolTip": "Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T13:59:41.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rendel\u00E9s.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "RelativeDocumentMoniker": "Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\View\\Rendel\u00E9s.cs [Design]",
+              "RelativeToolTip": "Prog3HomeWork\\View\\Rendel\u00E9s.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T13:57:31.22Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
