@@ -14,37 +14,56 @@ namespace Prog3HomeWork.View
 {
     public partial class Rendelés : Form
     {
-        private List<Product> products;
+        private List<Product> Products;
+        private List<ProductsControl> Controls;
+        private List<Order> Orders;
+
+
         public double orderSum = 0;
         public double sellingSum = 0;
-        public Rendelés(List<Product> products)
+        public Rendelés(List<Product> products, List<Order> orders)
         {
             InitializeComponent();
-            this.products = products;
+            this.Products = products;
+            this.Orders = orders;
         }
 
         private void Rendelések_Load(object sender, EventArgs e)
         {
-            foreach (var product in products)
+            Orders = new List<Order>();
+            Controls = new List<ProductsControl>();
+            foreach (var product in Products)
             {
-                ProductsControl productControl = new ProductsControl(orderSum, sellingSum);
+                ProductsControl productControl = new ProductsControl(this);
                 flowLayoutPanel1.Controls.Add(productControl);
                 productControl.ItemLoad(product);
+                Controls.Add(productControl);
             }
+        }
+
+        public void GetTotalSum()
+        {
+            orderSum = 0;
+            sellingSum = 0;
+            foreach(ProductsControl productControl in Controls)
+            {
+                if(productControl.isChecked)
+                {
+                    orderSum += productControl.quantity * productControl.product.SellingPrice;
+                }
+            }
+            OrderSumLabel.Text = "$" + orderSum.ToString("F2", CultureInfo.InvariantCulture);
+
         }
         private void OrderButton_Click(object sender, EventArgs e)
         {
-          /*  double totalPrice = 0;
-            foreach (var product in products)
+            foreach (ProductsControl productControl in Controls)
             {
-                if (product.isChecked)
+                if (productControl.isChecked)
                 {
-                    totalPrice += product.SellingPrice;
+                    Orders.Add(new(productControl.quantity, productControl.product));
                 }
             }
-            OrderSumLabel.Text = "$" + totalPrice.ToString("F2", CultureInfo.InvariantCulture);
-          */
-            
         }
     }
 }

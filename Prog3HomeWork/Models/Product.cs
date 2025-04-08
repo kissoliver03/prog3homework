@@ -8,15 +8,13 @@ namespace Prog3HomeWork.Models
 {
     public class Product
     {
-       public string TeamName { get; set; }
-       public string PlayerName { get; set; }
-       public int ShirtNumber { get; set; }
-       public string ShirtSize { get; set; }
-       public double PurchasePrice { get; set; }
-       public double SellingPrice { get; set; }
-       public string ImagePath { get; set; }
-       public bool isChecked { get; set; }
-       public int Quantity { get; set; }
+       public string TeamName { get; private set; }
+       public string PlayerName { get; private set; }
+       public int ShirtNumber { get; private set; }
+       public string ShirtSize { get; private set; }
+       public double PurchasePrice { get; private set; }
+       public double SellingPrice { get; private set; }
+       public string ImagePath { get; private set; }
 
 
         public Product(string teamName, string playerName, int shirtNumber, string shirtSize, double purchasePrice, double sellingPrice, string imagePath)
@@ -28,13 +26,6 @@ namespace Prog3HomeWork.Models
             PurchasePrice = purchasePrice;
             SellingPrice = sellingPrice;
             ImagePath = imagePath;
-            isChecked = false;
-            Quantity = 0;
-        }
-
-        public double GetTotalPrice()
-        {
-            return SellingPrice * Quantity;
         }
     }
 }

@@ -14,15 +14,19 @@ namespace Prog3HomeWork.View
 {
     public partial class ProductsControl : UserControl
     {
-        private Product products;
-        public ProductsControl(double orderSum, double sellingSum)
+        public Product product { get; private set; }
+        private Rendelés order;
+        public bool isChecked { get; private set; } = false;
+        public int quantity { get; private set; } = 0;
+        public ProductsControl(Rendelés rendeles)
         {
             InitializeComponent();
+            this.order = rendeles;
         }
 
         public void ItemLoad(Product products)
         {
-            this.products = products;
+            this.product = products;
 
             ShirtPictureBox.Image = Image.FromFile("..\\..\\..\\Images\\" + products.ImagePath);
             ShirtPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -37,15 +41,8 @@ namespace Prog3HomeWork.View
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                products.isChecked = true;
-                orderSum = products.SellingPrice * products.Quantity;
-            }
-            else
-            {
-                products.isChecked = false;
-            }
+            isChecked = checkBox1.Checked;
+            order.GetTotalSum();
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -58,7 +55,15 @@ namespace Prog3HomeWork.View
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            products.Quantity = int.Parse(quantityTextBox.Text);
+            if(quantityTextBox.Text.Length > 0)
+            {
+                quantity = int.Parse(quantityTextBox.Text);
+            }
+            else
+            {
+                quantity = 0;
+            }
+            order.GetTotalSum();
         }
     }
 }

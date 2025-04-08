@@ -9,6 +9,8 @@ namespace Prog3HomeWork
     public partial class MainForm : Form
     {
         private List<Product> products = new List<Product>();
+        private List<Order> orders = new List<Order>();
+
 
         public MainForm()
         {
@@ -42,52 +44,9 @@ namespace Prog3HomeWork
         private void fájlBetöltésToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FileReader fileReader = new FileReader();
-            products = fileReader.Read(products);
-          /*  if (ReadFile())
-            {
-                MessageBox.Show("A file olvasása sikeres volt!");
-            }
-          */
+            fileReader.Read(products);
+     
         }
-
-       /* private bool ReadFile()
-        {
-            OpenFileDialog fileDialog = new OpenFileDialog();
-            fileDialog.Filter = "Text Files (*.txt)|*.txt|CSV files (*.csv)|*.csv";
-            bool readSuccess = false;
-            if (fileDialog.ShowDialog() == DialogResult.OK)
-            {
-                readSuccess = true;
-                StreamReader reader = null;
-                try
-                {
-                    reader = new StreamReader(fileDialog.FileName);
-                    string[] items;
-                    while (!reader.EndOfStream)
-                    {
-                        items = reader.ReadLine().Split(';');
-
-                        products.Add(new Product(items[0], items[1], int.Parse(items[2]), items[3], int.Parse(items[4]), int.Parse(items[5]), items[6]));
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(
-                        String.Format("Hiba történt a fájl olvasása közben! {0}", ex.Message),
-                        "Figyelem!"
-                    );
-                }
-                finally
-                {
-                    if (reader != null)
-                    {
-                        reader.Close();
-                    }
-                }
-            }
-            return readSuccess;
-        }
-       */
 
         private void névjegyToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -105,7 +64,7 @@ namespace Prog3HomeWork
         }
         private void ShowOrdersForm()
         {
-            Rendelés OrdersForm = new Rendelés(products);
+            Rendelés OrdersForm = new Rendelés(products, orders);
             OrdersForm.ShowDialog();
         }
     }

@@ -11,7 +11,7 @@ namespace Prog3HomeWork.Data
 
     public class FileReader
     {
-        public List<Product> Read(List<Product> products)
+        public void Read(List<Product> products)
         {
             OpenFileDialog fileDialog = new OpenFileDialog();
             fileDialog.Filter = "Text Files (*.txt)|*.txt|CSV files (*.csv)|*.csv";
@@ -44,7 +44,6 @@ namespace Prog3HomeWork.Data
                     }
                 }
             }
-            return products;
         }
     }
 }
