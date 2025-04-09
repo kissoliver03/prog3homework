@@ -45,7 +45,7 @@ namespace Prog3HomeWork
         {
             FileReader fileReader = new FileReader();
             fileReader.Read(products);
-     
+
         }
 
         private void névjegyToolStripMenuItem_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace Prog3HomeWork
 
         private void rendelésToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            if(products.Count == 0)
+            if (products.Count == 0)
             {
                 MessageBox.Show("Nincs termék a listában!", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -67,5 +67,24 @@ namespace Prog3HomeWork
             Rendelés OrdersForm = new Rendelés(products, orders);
             OrdersForm.ShowDialog();
         }
+
+        private void könyvelésToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (products.Count != 0)
+            {
+                ShowAccountingForm();
+            }
+            else
+            {
+                MessageBox.Show("Nem történt még rendelés!");
+            }
+        }
+
+        private void ShowAccountingForm()
+        {
+            Könyvelés AccoutingForm = new Könyvelés();
+            AccoutingForm.ShowDialog();
+        }
+       
     }
 }

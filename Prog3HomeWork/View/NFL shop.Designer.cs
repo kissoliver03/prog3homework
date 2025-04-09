@@ -74,6 +74,7 @@
             könyvelésToolStripMenuItem.Name = "könyvelésToolStripMenuItem";
             könyvelésToolStripMenuItem.Size = new Size(81, 20);
             könyvelésToolStripMenuItem.Text = "Könyvelés...";
+            könyvelésToolStripMenuItem.Click += könyvelésToolStripMenuItem_Click;
             // 
             // névjegyToolStripMenuItem
             // 

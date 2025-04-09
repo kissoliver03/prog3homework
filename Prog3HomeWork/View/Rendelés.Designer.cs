@@ -75,8 +75,9 @@
             OrderSumLabel.ForeColor = Color.Green;
             OrderSumLabel.Location = new Point(165, 417);
             OrderSumLabel.Name = "OrderSumLabel";
-            OrderSumLabel.Size = new Size(0, 25);
+            OrderSumLabel.Size = new Size(61, 25);
             OrderSumLabel.TabIndex = 3;
+            OrderSumLabel.Text = "$0.00";
             // 
             // Rendelés
             // 

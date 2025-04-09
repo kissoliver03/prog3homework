@@ -15,7 +15,7 @@ namespace Prog3HomeWork.View
     public partial class Rendelés : Form
     {
         private List<Product> Products;
-        private List<ProductsControl> Controls;
+        private List<ProductsControl> controls;
         private List<Order> Orders;
 
 
@@ -31,13 +31,13 @@ namespace Prog3HomeWork.View
         private void Rendelések_Load(object sender, EventArgs e)
         {
             Orders = new List<Order>();
-            Controls = new List<ProductsControl>();
+            controls = new List<ProductsControl>();
             foreach (var product in Products)
             {
                 ProductsControl productControl = new ProductsControl(this);
                 flowLayoutPanel1.Controls.Add(productControl);
                 productControl.ItemLoad(product);
-                Controls.Add(productControl);
+                controls.Add(productControl);
             }
         }
 
@@ -45,7 +45,7 @@ namespace Prog3HomeWork.View
         {
             orderSum = 0;
             sellingSum = 0;
-            foreach(ProductsControl productControl in Controls)
+            foreach(ProductsControl productControl in controls)
             {
                 if(productControl.isChecked)
                 {
@@ -57,7 +57,7 @@ namespace Prog3HomeWork.View
         }
         private void OrderButton_Click(object sender, EventArgs e)
         {
-            foreach (ProductsControl productControl in Controls)
+            foreach (ProductsControl productControl in controls)
             {
                 if (productControl.isChecked)
                 {
