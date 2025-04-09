@@ -52,7 +52,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            label2.Location = new Point(12, 69);
+            label2.Location = new Point(12, 75);
             label2.Name = "label2";
             label2.Size = new Size(102, 21);
             label2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            label3.Location = new Point(12, 109);
+            label3.Location = new Point(12, 118);
             label3.Name = "label3";
             label3.Size = new Size(79, 21);
             label3.TabIndex = 2;
@@ -72,7 +72,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            label4.Location = new Point(12, 147);
+            label4.Location = new Point(12, 161);
             label4.Name = "label4";
             label4.Size = new Size(79, 21);
             label4.TabIndex = 3;
@@ -80,6 +80,7 @@
             // 
             // QuantityLabel
             // 
+            QuantityLabel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             QuantityLabel.AutoSize = true;
             QuantityLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             QuantityLabel.ForeColor = Color.FromArgb(255, 128, 0);
@@ -93,7 +94,7 @@
             PurchaseLabel.AutoSize = true;
             PurchaseLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             PurchaseLabel.ForeColor = Color.Green;
-            PurchaseLabel.Location = new Point(158, 74);
+            PurchaseLabel.Location = new Point(158, 80);
             PurchaseLabel.Name = "PurchaseLabel";
             PurchaseLabel.Size = new Size(0, 21);
             PurchaseLabel.TabIndex = 5;
@@ -103,7 +104,7 @@
             SellingLabel.AutoSize = true;
             SellingLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             SellingLabel.ForeColor = Color.Red;
-            SellingLabel.Location = new Point(158, 114);
+            SellingLabel.Location = new Point(158, 123);
             SellingLabel.Name = "SellingLabel";
             SellingLabel.Size = new Size(0, 21);
             SellingLabel.TabIndex = 6;
@@ -113,7 +114,7 @@
             ProfitLabel.AutoSize = true;
             ProfitLabel.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 238);
             ProfitLabel.ForeColor = Color.FromArgb(128, 128, 255);
-            ProfitLabel.Location = new Point(158, 152);
+            ProfitLabel.Location = new Point(158, 166);
             ProfitLabel.Name = "ProfitLabel";
             ProfitLabel.Size = new Size(0, 21);
             ProfitLabel.TabIndex = 7;
@@ -122,7 +123,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(235, 206);
+            ClientSize = new Size(318, 223);
             Controls.Add(ProfitLabel);
             Controls.Add(SellingLabel);
             Controls.Add(PurchaseLabel);
@@ -133,6 +134,7 @@
             Controls.Add(label1);
             Name = "Könyvelés";
             Text = "Könyvelés";
+            Load += Könyvelés_Load;
             ResumeLayout(false);
             PerformLayout();
         }

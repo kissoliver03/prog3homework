@@ -55,15 +55,24 @@ namespace Prog3HomeWork.View
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if(quantityTextBox.Text.Length > 0)
+            try
             {
-                quantity = int.Parse(quantityTextBox.Text);
+                if (quantityTextBox.Text.Length > 0)
+                {
+                    quantity = int.Parse(quantityTextBox.Text);
+                }
+                else
+                {
+                    quantity = 0;
+                }
+                order.GetTotalSum();
             }
-            else
+            catch(OverflowException ex)
             {
+                MessageBox.Show("A megadott mennyiség túl nagy!");
+                quantityTextBox.Text = "";
                 quantity = 0;
             }
-            order.GetTotalSum();
         }
     }
 }

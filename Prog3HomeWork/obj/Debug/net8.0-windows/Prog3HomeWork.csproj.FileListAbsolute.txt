@@ -17,3 +17,5 @@ C:\Users\kisso\Desktop\HF\Project\SDCBFE\Prog3HomeWork\obj\Debug\net8.0-windows\
 C:\Users\kisso\Desktop\HF\Project\SDCBFE\Prog3HomeWork\obj\Debug\net8.0-windows\Prog3HomeWork.MainForm.resources
 C:\Users\kisso\Desktop\HF\Project\SDCBFE\Prog3HomeWork\obj\Debug\net8.0-windows\Prog3HomeWork.View.Rendelés.resources
 C:\Users\kisso\Desktop\HF\Project\SDCBFE\Prog3HomeWork\obj\Debug\net8.0-windows\Prog3HomeWork.View.ProductsControl.resources
+C:\Users\kisso\Desktop\HF\Project\SDCBFE\Prog3HomeWork\obj\Debug\net8.0-windows\Prog3HomeWork.sourcelink.json
+C:\Users\kisso\Desktop\HF\Project\SDCBFE\Prog3HomeWork\obj\Debug\net8.0-windows\Prog3HomeWork.View.Könyvelés.resources

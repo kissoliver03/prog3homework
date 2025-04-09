@@ -30,7 +30,7 @@ namespace Prog3HomeWork.View
 
         private void Rendelések_Load(object sender, EventArgs e)
         {
-            Orders = new List<Order>();
+          //  Orders = new List<Order>();
             controls = new List<ProductsControl>();
             foreach (var product in Products)
             {
@@ -64,6 +64,7 @@ namespace Prog3HomeWork.View
                     Orders.Add(new(productControl.quantity, productControl.product));
                 }
             }
+            Close();
         }
     }
 }

@@ -55,12 +55,14 @@ namespace Prog3HomeWork
 
         private void rendelésToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            if (products.Count == 0)
+            if (products.Count != 0)
             {
-                MessageBox.Show("Nincs termék a listában!", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                ShowOrdersForm();
             }
-            ShowOrdersForm();
+            else
+            {
+                MessageBox.Show("Nincs beolvasott termék!", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         private void ShowOrdersForm()
         {
@@ -70,19 +72,19 @@ namespace Prog3HomeWork
 
         private void könyvelésToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (products.Count != 0)
+            if (orders.Count != 0)
             {
                 ShowAccountingForm();
             }
             else
             {
-                MessageBox.Show("Nem történt még rendelés!");
+                MessageBox.Show("Nem történt még rendelés!", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void ShowAccountingForm()
         {
-            Könyvelés AccoutingForm = new Könyvelés();
+            Könyvelés AccoutingForm = new Könyvelés(orders);
             AccoutingForm.ShowDialog();
         }
        
