@@ -11,6 +11,8 @@ namespace Prog3HomeWork
         private List<Product> products = new List<Product>();
         private List<Order> orders = new List<Order>();
 
+        public int TotalOrderNumber = 0;
+
 
         public MainForm()
         {
@@ -66,7 +68,7 @@ namespace Prog3HomeWork
         }
         private void ShowOrdersForm()
         {
-            Rendelés OrdersForm = new Rendelés(products, orders);
+            Rendelés OrdersForm = new Rendelés(products, orders, this);
             OrdersForm.ShowDialog();
         }
 
@@ -84,7 +86,7 @@ namespace Prog3HomeWork
 
         private void ShowAccountingForm()
         {
-            Könyvelés AccoutingForm = new Könyvelés(orders);
+            Könyvelés AccoutingForm = new Könyvelés(orders, this);
             AccoutingForm.ShowDialog();
         }
        

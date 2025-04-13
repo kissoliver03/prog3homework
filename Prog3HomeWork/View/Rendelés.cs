@@ -17,20 +17,20 @@ namespace Prog3HomeWork.View
         private List<Product> Products;
         private List<ProductsControl> controls;
         private List<Order> Orders;
-
+        private MainForm MainForm;
 
         public double orderSum = 0;
         public double sellingSum = 0;
-        public Rendelés(List<Product> products, List<Order> orders)
+        public Rendelés(List<Product> products, List<Order> orders, MainForm mainForm)
         {
             InitializeComponent();
             this.Products = products;
             this.Orders = orders;
+            this.MainForm = mainForm;
         }
 
         private void Rendelések_Load(object sender, EventArgs e)
         {
-          //  Orders = new List<Order>();
             controls = new List<ProductsControl>();
             foreach (var product in Products)
             {
@@ -39,24 +39,29 @@ namespace Prog3HomeWork.View
                 productControl.ItemLoad(product);
                 controls.Add(productControl);
             }
+            OrderButton.Enabled = false;
         }
 
         public void GetTotalSum()
         {
             orderSum = 0;
             sellingSum = 0;
+            bool ButtonEnabled = false;
             foreach(ProductsControl productControl in controls)
             {
                 if(productControl.isChecked)
                 {
                     orderSum += productControl.quantity * productControl.product.SellingPrice;
+                    ButtonEnabled = true;
                 }
+                OrderButton.Enabled = ButtonEnabled;
             }
             OrderSumLabel.Text = "$" + orderSum.ToString("F2", CultureInfo.InvariantCulture);
 
         }
         private void OrderButton_Click(object sender, EventArgs e)
         {
+            MainForm.TotalOrderNumber++;
             foreach (ProductsControl productControl in controls)
             {
                 if (productControl.isChecked)

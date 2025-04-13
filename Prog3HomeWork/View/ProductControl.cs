@@ -67,7 +67,7 @@ namespace Prog3HomeWork.View
                 }
                 order.GetTotalSum();
             }
-            catch(OverflowException ex)
+            catch(OverflowException)
             {
                 MessageBox.Show("A megadott mennyiség túl nagy!");
                 quantityTextBox.Text = "";

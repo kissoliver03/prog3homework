@@ -14,10 +14,12 @@ namespace Prog3HomeWork.View
     public partial class Könyvelés : Form
     {
         private List<Order> Orders;
-        public Könyvelés(List<Order> orders)
+        private MainForm MainForm;
+        public Könyvelés(List<Order> orders, MainForm mainForm)
         {
             InitializeComponent();
             this.Orders = orders;
+            this.MainForm = mainForm;
         }
 
         private void Könyvelés_Load(object sender, EventArgs e)
@@ -33,7 +35,7 @@ namespace Prog3HomeWork.View
                 SellingTotal += order.Product.SellingPrice * order.Quantity;
 
             }
-            QuantityLabel.Text = QuantityTotal.ToString() + "db";
+            QuantityLabel.Text = MainForm.TotalOrderNumber + "db";
             PurchaseLabel.Text = "$" + PurchaseTotal.ToString("F2", System.Globalization.CultureInfo.InvariantCulture);
             SellingLabel.Text = "$" + SellingTotal.ToString("F2", System.Globalization.CultureInfo.InvariantCulture);
             ProfitLabel.Text = "$" + (SellingTotal - PurchaseTotal).ToString("F2", System.Globalization.CultureInfo.InvariantCulture);
