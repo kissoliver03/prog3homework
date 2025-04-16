@@ -123,7 +123,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(318, 223);
+            ClientSize = new Size(273, 198);
             Controls.Add(ProfitLabel);
             Controls.Add(SellingLabel);
             Controls.Add(PurchaseLabel);

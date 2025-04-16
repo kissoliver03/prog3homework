@@ -11,8 +11,7 @@ namespace Prog3HomeWork
         private List<Product> products = new List<Product>();
         private List<Order> orders = new List<Order>();
 
-        public int TotalOrderNumber = 0;
-
+        public int totalOrderNumber = 0;
 
         public MainForm()
         {
@@ -63,7 +62,7 @@ namespace Prog3HomeWork
             }
             else
             {
-                MessageBox.Show("Nincs beolvasott termék!", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Nincs beolvasott termék!\nElöször történjen meg a beolvasás a \"Fájl betöltés...\" fülön", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void ShowOrdersForm()

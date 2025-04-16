@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\Prog3HomeWork.csproj",
+      "projectUniqueName": "C:\\Users\\kisso\\Desktop\\SDCBFE_refactor\\Prog3HomeWork\\Prog3HomeWork.csproj",
       "projectName": "Prog3HomeWork",
-      "projectPath": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\Prog3HomeWork.csproj",
+      "projectPath": "C:\\Users\\kisso\\Desktop\\SDCBFE_refactor\\Prog3HomeWork\\Prog3HomeWork.csproj",
       "packagesPath": "C:\\Users\\kisso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE\\Prog3HomeWork\\obj\\",
+      "outputPath": "C:\\Users\\kisso\\Desktop\\SDCBFE_refactor\\Prog3HomeWork\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

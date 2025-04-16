@@ -17,6 +17,7 @@ namespace Prog3HomeWork.View
         private List<Product> Products;
         private List<ProductsControl> controls;
         private List<Order> Orders;
+
         private MainForm MainForm;
 
         public double orderSum = 0;
@@ -46,13 +47,17 @@ namespace Prog3HomeWork.View
         {
             orderSum = 0;
             sellingSum = 0;
+       
             bool ButtonEnabled = false;
             foreach(ProductsControl productControl in controls)
             {
-                if(productControl.isChecked)
+                if (productControl.isChecked)
                 {
                     orderSum += productControl.quantity * productControl.product.SellingPrice;
-                    ButtonEnabled = true;
+                    if(productControl.quantity > 0)
+                    {
+                        ButtonEnabled = true;
+                    }
                 }
                 OrderButton.Enabled = ButtonEnabled;
             }
@@ -61,7 +66,7 @@ namespace Prog3HomeWork.View
         }
         private void OrderButton_Click(object sender, EventArgs e)
         {
-            MainForm.TotalOrderNumber++;
+            MainForm.totalOrderNumber++;
             foreach (ProductsControl productControl in controls)
             {
                 if (productControl.isChecked)

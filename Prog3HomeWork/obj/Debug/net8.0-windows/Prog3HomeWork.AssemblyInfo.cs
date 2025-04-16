@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prog3HomeWork")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+985323922f9fb27cd3474867de6bb3bbf32f711f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10845cab0d52caf374604a6c491b045c9b650e3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prog3HomeWork")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prog3HomeWork")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

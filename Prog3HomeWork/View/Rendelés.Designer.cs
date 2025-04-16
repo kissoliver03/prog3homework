@@ -40,7 +40,7 @@
             flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(782, 399);
+            flowLayoutPanel1.Size = new Size(737, 399);
             flowLayoutPanel1.TabIndex = 0;
             // 
             // label1
@@ -59,7 +59,7 @@
             OrderButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             OrderButton.FlatStyle = FlatStyle.Flat;
             OrderButton.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            OrderButton.Location = new Point(643, 413);
+            OrderButton.Location = new Point(598, 413);
             OrderButton.Name = "OrderButton";
             OrderButton.Size = new Size(98, 35);
             OrderButton.TabIndex = 2;
@@ -83,11 +83,12 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(782, 460);
+            ClientSize = new Size(737, 460);
             Controls.Add(OrderSumLabel);
             Controls.Add(OrderButton);
             Controls.Add(label1);
             Controls.Add(flowLayoutPanel1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "Rendelés";
             Text = "Rendelések";
             Load += Rendelések_Load;
