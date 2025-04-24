@@ -55,24 +55,25 @@ namespace Prog3HomeWork.View
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            try
-            {
                 if (quantityTextBox.Text.Length > 0)
                 {
-                    quantity = int.Parse(quantityTextBox.Text);
+                    int tempQuantity = 0;
+                    if (!int.TryParse(quantityTextBox.Text, out tempQuantity))
+                    {
+                        MessageBox.Show("Nem megfelelő a bevitt érték!", "Hiba!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        quantityTextBox.Text = "";
+                        quantity = 0;
+                    }
+                    else
+                    {
+                        quantity = tempQuantity;
+                    }
                 }
                 else
                 {
                     quantity = 0;
                 }
                 order.GetTotalSum();
-            }
-            catch(OverflowException)
-            {
-                MessageBox.Show("A megadott mennyiség túl nagy!");
-                quantityTextBox.Text = "";
-                quantity = 0;
-            }
         }
     }
 }

@@ -111,7 +111,6 @@
             MainMenuStrip = menuStrip1;
             Name = "MainForm";
             Text = "NFL shop";
-            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

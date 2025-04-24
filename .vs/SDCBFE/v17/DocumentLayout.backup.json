@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kisso\\Desktop\\SDCBFE_refactor\\",
+  "WorkspaceRootPath": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE_refactor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|c:\\users\\kisso\\desktop\\sdcbfe_refactor\\prog3homework\\view\\nfl shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|c:\\users\\kisso\\desktop\\hf\\project\\sdcbfe_refactor\\prog3homework\\view\\nfl shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\view\\nfl shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|c:\\users\\kisso\\desktop\\hf\\project\\sdcbfe_refactor\\prog3homework\\view\\rendel\u00E9s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A18415D-9698-4890-9EEF-023E0C777934}|Prog3HomeWork\\Prog3HomeWork.csproj|solutionrelative:prog3homework\\view\\rendel\u00E9s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rendel\u00E9s.cs",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE_refactor\\Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "RelativeDocumentMoniker": "Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE_refactor\\Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "RelativeToolTip": "Prog3HomeWork\\View\\Rendel\u00E9s.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:57:03.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "NFL shop.cs",
-              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\SDCBFE_refactor\\Prog3HomeWork\\View\\NFL shop.cs",
+              "DocumentMoniker": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE_refactor\\Prog3HomeWork\\View\\NFL shop.cs",
               "RelativeDocumentMoniker": "Prog3HomeWork\\View\\NFL shop.cs",
-              "ToolTip": "C:\\Users\\kisso\\Desktop\\SDCBFE_refactor\\Prog3HomeWork\\View\\NFL shop.cs",
+              "ToolTip": "C:\\Users\\kisso\\Desktop\\HF\\Project\\SDCBFE_refactor\\Prog3HomeWork\\View\\NFL shop.cs",
               "RelativeToolTip": "Prog3HomeWork\\View\\NFL shop.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwDYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:11:06.988Z",
+              "WhenOpened": "2025-04-24T15:09:18.469Z",
               "EditorCaption": ""
             }
           ]

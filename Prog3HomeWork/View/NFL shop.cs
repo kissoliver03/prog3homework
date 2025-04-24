@@ -3,6 +3,7 @@ using Prog3HomeWork.Models;
 using Prog3HomeWork.View;
 using System.Data;
 using System.Windows.Forms;
+using static System.Windows.Forms.LinkLabel;
 
 namespace Prog3HomeWork
 {
@@ -18,21 +19,6 @@ namespace Prog3HomeWork
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rendelésToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void kilépésToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show("Biztosan ki szeretnél lépni?", "Kilépés", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -44,9 +30,22 @@ namespace Prog3HomeWork
 
         private void fájlBetöltésToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FileReader fileReader = new FileReader();
-            fileReader.Read(products);
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            fileDialog.Filter = "Text Files (*.txt)|*.txt|CSV files (*.csv)|*.csv";
+            if (fileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    products.Clear();
+                    products.AddRange(new Loader<Product>().LoadFile(fileDialog.FileName, new ProductParser()));
 
+                    MessageBox.Show("A fájl beolvasása sikeres volt!", "Figyelem!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Hiba történt a fájl beolvasása közben!", "Figyelem!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
         }
 
         private void névjegyToolStripMenuItem_Click(object sender, EventArgs e)
